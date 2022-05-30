@@ -2,6 +2,11 @@
   "name": "nextjs-fronend",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "email": "khoa.lena@groovetechnology.com",
+    "name": "Khoa Le",
+    "url": "https://github.com/khoale-groove"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +14,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "3.6.5",
+    "@apollo/link-error": "^2.0.0-beta.3",
+    "@apollo/react-ssr": "^4.0.0",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "lodash.debounce": "^4.0.8",
+    "styled-components": "^5.3.5"
+    
   },
   "devDependencies": {
     "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "^12.1.6",
+    "babel-plugin-styled-components": "^2.0.7",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "react-test-renderer": "^18.1.0"
   }
 }
